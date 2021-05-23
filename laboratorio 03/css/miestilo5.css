@@ -1,0 +1,135 @@
+/*agregar colores de fondo para maquetacion*/
+body {
+  background-color: blue;
+}
+.contenedor {
+  background-color: gainsboro;
+}
+header {
+  background-color: gold;
+}
+nav {
+  background-color: greenyellow;
+}
+section {
+  background-color: white;
+}
+footer {
+  background-color: rebeccapurple;
+}
+
+/*agregamos un borde tipo dotted*/
+.borde1 {
+  border-style: dotted;
+}
+
+/*agregamos un borde tipo dashed*/
+.borde2 {
+  border-style: dashed;
+}
+
+/*agregamos un borde tipo solid*/
+.borde3 {
+  border-style: solid;
+}
+
+/*agregamos un borde tipo double*/
+.borde4 {
+  border-style: double;
+}
+
+/*agregamos un borde tipo groove*/
+.borde5 {
+  border-style: groove;
+}
+
+/*agregamos un borde tipo ridge*/
+.borde6 {
+  border-style: ridge;
+}
+
+/*agregamos un borde tipo inset*/
+.borde7 {
+  border-style: inset;
+}
+
+/*agregamos un borde tipo outset*/
+.borde8 {
+  border-style: outset;
+}
+
+/*agregamos un borde tipo none*/
+.borde9 {
+  border-style: none;
+}
+
+/*agregamos un borde tipo hidden*/
+.borde10 {
+  border-style: hidden;
+}
+
+/*agregamos un borde tipo hidden*/
+.borde11 {
+  border-style: solid dashed double dotted;
+}
+
+/*agregamos un borde tipo hidden*/
+.borde12 {
+  border-style: dotted;
+  border-width: 10px;
+}
+
+/*agregamos un borde tipo hidden*/
+.borde13 {
+  border-style: dashed;
+  border-width: medium;
+}
+
+/*agregamos un borde tipo hidden*/
+.borde14 {
+  border-style: solid;
+  border-width: 10px 3px 25px 15px;
+}
+
+/*agregamos un borde con color*/
+.borde15 {
+  border-style: solid;
+  border-color: red;
+}
+
+/*agregamos un borde tipo hidden*/
+.borde16 {
+  border-style: dashed;
+  border-width: 10px;
+  border-color: red green blue yellow;
+}
+
+.borde17 {
+  border-top-style: dashed;
+}
+
+.borde18 {
+  border-bottom-style: dotted;
+}
+
+.borde19 {
+  border-left-style: groove;
+}
+
+.borde20 {
+  border-right-style: solid;
+}
+
+/*bordes redondeados*/
+
+.borde21 {
+  border-style: solid;
+  border-width: 15 px;
+  border-radius: 5px;
+}
+
+.borde22 {
+  border-style: solid;
+  border-width: 20 px;
+  border-radius: 15 px;
+}

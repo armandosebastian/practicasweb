@@ -1,0 +1,73 @@
+.contenedor {
+  background-color: darkslategray;
+}
+
+.cabecera {
+  background-color: rgba(58, 102, 91, 0.63);
+}
+
+.menu {
+  background-color: darkolivegreen;
+}
+
+.contenido {
+  background-color: rgb(20, 45, 90);
+}
+
+.pie {
+  background-color: rgb(10, 66, 66);
+}
+
+body {
+  background-color: rgb(81, 90, 95);
+}
+
+.parrafoimagen {
+  background-image: url("/img/foto1.jpg");
+}
+
+/*le aplicamos un color de fondo al parrafo y le damos transparencia*/
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: whitesmoke;
+}
+
+/*agregar una imagen de fondo al parrafo, pero que se repita*/
+.parrafoimagenrepetir {
+  background-image: url("/img/foto1.jpg");
+}
+
+/*agregar una imagen de fondo al parrafo pero quiero que no se repita*/
+.parrafoimagennorepetir {
+  background-image: url("/img/foto1.jpg");
+  background-size: no-repeat;
+}
+
+/*agregar una imagen de fondo al parrafo pero cambiamos el tamaño*/
+.parrafoimagentamaño {
+  background-image: url("/img/foto1.jpg");
+  background-size: 30px;
+}
+
+/*agregar una imagen al fondo de parrafo horizontalmente*/
+.parrafoimagennorepetirhoriz {
+  background-image: url("/img/foto1.jpg");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+/*agregar una imagen al fondo de parrafo verticalmente*/
+.parrafoimagennorepetirvert {
+  background-image: url("/img/foto1.jpg");
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+/*agregar una imagen al fondo de parrafo pero al centro */
+.parrafoimagencentrar {
+  background-image: url("/img/foto1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}

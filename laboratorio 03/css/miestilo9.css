@@ -1,0 +1,119 @@
+.body {
+  background-color: black;
+}
+
+.contenedor {
+  background-color: gray;
+}
+
+/*agregamos color al texto*/
+.parrafocolor {
+  color: blue;
+}
+
+/*alineamos el texto dentro de los parrafos*/
+.parrafoderecha {
+  text-align: right;
+}
+
+/*alineamos el texto dentro de los parrafos*/
+.parrafoizquierda {
+  text-align: left;
+}
+
+/*alineamos el texto dentro de los parrafos*/
+.parrafocentro {
+  text-align: center;
+}
+
+/*alineamos el texto dentro de los parrafos*/
+.parrafojustificado {
+  text-align: justify;
+}
+
+/*agregamos decoracion al texto*/
+.parrafosubrayado {
+  text-decoration: underline;
+}
+
+/*agregamos decoracion al texto*/
+.parrafosobrelinea {
+  text-decoration: overline;
+}
+
+/*agregamos decoracion al texto*/
+.parrafotachado {
+  text-decoration: line-through;
+}
+
+/*agregamos decoracion al texto*/
+.parrafosinestilo {
+  text-decoration: none;
+}
+
+/*agregamos transformaciones al parrafo*/
+.parrafomayuscula {
+  text-transform: uppercase;
+}
+
+/*agregamos transformaciones al parrafo*/
+.parrafominuscula {
+  text-transform: lowercase;
+}
+
+/*agregamos transformaciones al parrafo*/
+.parrafopropio {
+  text-transform: capitalize;
+}
+
+/*agregamos espacio a las del parrafo*/
+.parrafoespacionormal {
+  letter-spacing: 5px;
+}
+
+/*agregamos espacio a las del parrafo*/
+.parrafoespaciocomprimido {
+  letter-spacing: -5px;
+}
+
+/*agregamos espacio a las del parrafo*/
+.parrafoespaciolineas {
+  line-height: 0.9px;
+}
+
+/*agregamos espacio a las del parrafo*/
+.parrafolineascomprimida {
+  line-height: -1.9px;
+}
+
+/*agregamos espacio a las del parrafo*/
+.parrafoespacioletra {
+  word-spacing: 10px;
+}
+
+/*agregamos espacio a las del parrafo*/
+.parrafoespacioletracomprimido {
+  word-spacing: -10px;
+}
+
+/*agregamos separacion al espacio en blanco*/
+.parrafoespacio {
+  white-space: pre-wrap;
+}
+
+/*agregamos separacion al espacio en blanco*/
+.parrafosangria {
+  text-indent: 50px;
+}
+
+/*agregamos separacion al espacio en blanco*/
+.parrafosombra {
+  text-shadow: 2px 2px yellowgreen;
+}
+
+/*agregamos separacion al espacio en blanco*/
+.parrafosombragrande {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 5px 5px 5px red;
+}

@@ -1,0 +1,111 @@
+.contenedor {
+  background-color: rgb(22, 27, 32);
+  padding: 40px;
+}
+
+.encabezado {
+  background-color: rgb(54, 57, 58);
+  height: 220px;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bolder;
+  color: white;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+
+.mitad1 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.acerca {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font: bolder;
+}
+
+.descripcion {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-right: 30px;
+}
+
+.educacion {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.estudios {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.mitad2 {
+  float: right;
+  width: 600px;
+  height: 700px;
+  background: black;
+  margin-bottom: 25px;
+  padding-left: 100px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif white;
+}
+
+.contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.contacto2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+hr {
+  max-width: 90%;
+  padding-right: 10px;
+}
+
+.habilidades {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.hab1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.hab2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.hab3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.hab4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.experiencia {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.experiencia2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.pasiones {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}

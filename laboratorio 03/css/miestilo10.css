@@ -1,0 +1,109 @@
+/*importamos letras de google*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+* {
+  padding: 15px;
+}
+.body {
+  background-color: red;
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+
+/*agregamos tipos de letra*/
+.parrafo1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.parrafo2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.parrafo3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*aplicamos estilos a la letra*/
+.parrafo4 {
+  font-style: italic;
+}
+
+.parrafo5 {
+  font-style: oblique;
+}
+
+.parrafo6 {
+  font-style: normal;
+}
+
+.parrafo7 {
+  font-weight: bold;
+}
+
+.parrafo8 {
+  font-weight: bolder;
+}
+
+.parrafo9 {
+  font-variant: small-caps;
+}
+
+.parrafo10 {
+  font-variant: normal;
+}
+
+.parrafo11 {
+  font-variant: 15px;
+}
+
+/*llamamos a la fuente importada*/
+
+.parrafo12 {
+  font-family: "Lato", sans-serif;
+}
+
+/*utilizamos las fuentes descargadas*/
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url("/fonts/Lato-Black.ttf");
+}
+
+.parrafo13 {
+  font-family: "Lato-Black";
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("/fonts/Lato-Bold.ttf");
+}
+
+.parrafo14 {
+  font-family: "Lato-Bold";
+}
+
+@font-face {
+  font-family: "Girassol-Regular";
+  src: url("/fonts/Girassol-Regular.ttf");
+}
+
+.parrafo15 {
+  font-family: "Girassol-Regular";
+}
+
+@font-face {
+  font-family: "Lato-Thin";
+  src: url("/fonts/Lato-Thin.ttf");
+}
+
+.parrafo16 {
+  font-family: "Lato-Thin";
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("/fonts/Lato-Regular.ttf");
+}
+
+.parrafo17 {
+  font-family: "Lato-Regular";
+}
