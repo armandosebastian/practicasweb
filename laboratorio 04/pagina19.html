@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 5</title>
+    <script>
+        var est=["Verano","Otoño", "Invierno", "Primavera"];
+
+        document.write("El tamaño del vector es: "+est.length);
+        document.write("<hr>");
+
+        document.write("El segundo valor del vector es: "+est[1]);
+        document.write("<hr>");
+
+        for(var i=0;i<est.length;i++){
+            document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+        }
+        document.write("<hr>");
+
+        est.pop();
+        for(var i=0;i<est.length;i++){
+            document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>")
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

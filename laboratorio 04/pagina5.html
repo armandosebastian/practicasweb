@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 2</title>
+    <script type="text/javascript" >
+        //Ejemplo 1
+    //declarando variables
+    var numero1;
+    var num_2;
+    var sum;
+
+    //inicializando valores
+    numero1= 0;
+    num_2= 0;
+    sum= 0;
+
+
+    //capturando valores
+    numero1=parseInt(prompt("Ingrese el numero 1:"));
+    num_2=parseInt(prompt("Ingrese el numero 2:"));
+
+    //realizando operacion
+    sum=numero1+num_2;
+
+    //mostrando resultados
+    alert("La suma es: "+sum);
+
+    document.write("La suma es: "+sum+"<br>");
+    document.write('<hr>');
+
+            //Ejemplo 2
+    //declarando variables
+    var n1;
+    var n2;
+    var n3;
+    var n4;
+    var prom;
+
+    //inicializando valores
+    n1= 0;
+    n2= 0;
+    n3= 0;
+    n4= 0;
+    prom= 0;
+
+    //caprurando valores
+    n1=parseFloat(prompt("Ingrese la nota 1: "));
+    n2=parseFloat(prompt("Ingrese la nota 2: "));
+    n3=parseFloat(prompt("Ingrese la nota 3: "));
+    n4=parseFloat(prompt("Ingrese la nota 4: "));
+
+
+    //realizando operacion
+    prom=(n1+n2+n3+n4)/4;
+
+    //mostrando resultados
+    alert("El promedio es: "+prom)
+
+    document.write('El promedio es: '+prom+"<br>");
+    document.write("<hr>")
+
+        //Ejemplo 3
+    //declarando variables
+    var nom;
+    
+    //inicializando variables
+    nom= "";
+
+    //asignando valores
+    nom=prompt("Ingresa tu nombre:");
+
+    //mostrando resultados
+    alert("Hola como estas "+nom+" espero que muy bien");
+
+    document.write("El nombre es: "+nom+"<br>")
+    document.write("<hr>")
+
+    //Ejemplo 4
+
+    var sb;
+    var bon;
+    var des;
+    var sf;
+
+    var sb=0;
+    var bon= 0;
+    var des= 0;
+    var sf= 0;
+
+sb=parseFloat(prompt("Ingrese el sueldo basico"))
+
+    bon=sb*0.07;
+    des=sb*0.04;
+    sf=sb+bon-des;
+
+alert("El sueldo basico es: "+sb);
+alert("La bonificacion es: "+bon);
+alert("El descuento es: "+des);
+alert("El sueldo total es: "+sf);
+
+document.write('La sueldo basico es: '+sb+'<br>');
+document.write('La bonificacion es: '+bon+'<br>');
+document.write('El descuento es: '+des+'<br>');
+document.write('El sueldo total es: '+sf+'<br>');
+document.write('<hr>');
+
+//Ejemplo 5
+
+var can=0;
+var pre=0;
+var sbt=0;
+var igv=0;
+var tot=0;
+
+can=parseInt(prompt("Ingresa la cantidad a comprar:"));
+pre=parseFloat(prompt("Ingresa el precio del producto"));
+
+sbt=can*pre;
+igv=sbt*0.18;
+tot=sbt+igv;
+
+alert("El subtotal es: "+sbt);
+alert("El igv es: "+igv);
+alert("El total es: "+tot);
+
+document.write('El subtotal es: '+sbt+'<br>');
+document.write('El igv es: '+sbt+'<br>');
+document.write('El total es: '+sbt+'<br>');
+document.write('<hr>');
+
+//Ejemplo 6
+
+var nh=0;
+var ch=0;
+var sb=0;
+var bon=0;
+var des=0;
+var sf=0;
+
+nh=parseFloat(prompt("Ingresa el numero de horas trabajadas:"));
+ch=parseFloat(prompt("Ingresa el costo por hora trabajada:"));
+
+sb=nh*ch;
+bon=sb*0.06;
+des=sb*0.03;
+sf=sb+bon-des;
+
+alert("El sueldo basico es: "+sb);
+alert("La bonificacion es: "+bon);
+alert("El descuento es: "+des);
+alert("El sueldo final es: "+sf);
+
+document.write('El sueldo basico es: '+sb+'<br>');
+document.write('La bonificacion es: '+bon+'<br>');
+document.write('El descuento es: '+des+'<br>');
+document.write('El sueldo final es: '+sf+'<br>');
+document.write('<a href=/index.html>Regresar</a> <hr>');
+document.write('<br>');
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
