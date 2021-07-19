@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 16, 24);
+    font-family: Calibri;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgb(37, 34, 34);
+    overflow: hidden;
+    width: 350px;
+    max-width: 100%;
+}
+
+.registro{
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding: 10px 30px;
+    background-color: rgb(231, 231, 231);
+}
+
+.registro h2{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form{
+    padding: 30px;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control .datos input{
+    border: 2px solid rgb(141, 136, 136);
+    border-radius: 2px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control .radios{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-control .estado{
+    display: inline-flex;
+    padding-bottom: 20px;
+}
+
+.form-control .registrar input{
+    background-color: rgb(11, 228, 29);
+    border: solid;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+
+table{
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+table td, th{
+    max-width: 1000px;
+    border: solid 1px white;
+    padding: 5px 75px;
+    background-color: rgb(31, 31, 31);
+}
+
+.error{
+    margin: auto;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: red;
+    padding: 20px 40px;
+}

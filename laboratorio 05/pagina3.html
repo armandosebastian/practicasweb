@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 1</title>
+    <link rel="stylesheet" href="css/curso.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="registro">
+            <h2>Registro</h2>
+        </div>
+        <form class="form" action="" id="formulario">
+            <div class="form-control">
+                <div class="datos">
+                    <label for="txtNom">Nombre:</label>
+                    <input type="text" name="txtNom" id="txtNom" placeholder="Ingresa tus nombres" maxlength="30">
+                    <br>
+                    <label for="txtApe">Apellido:</label>
+                    <input type="text" name="txtApe" id="txtApe" placeholder="Ingresa tus apellidos" maxlength="30">
+                    <br>
+                    <label for="txtDni">Dni:</label>
+                    <input type="text" name="txtDni" id="txtDni" placeholder="Ingresa tu Dni" maxlength="30">
+                    <br>
+                    <label for="cboCurso">Curso:</label>
+                    <select name="cboCurso" id="cboCurso" required>
+                        <option value="0">Seleccione una curso</option>
+                        <option value="1">Diseño Web</option>
+                        <option value="2">Base de Datos</option>
+                        <option value="3">Programacion Java</option>
+                    </select>
+                    <br>
+                </div>
+                <div class="registrar">
+                    <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar" onclick="Registrar()">
+                    <input type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar">
+                </div>
+            </div>
+        </form>
+    </div>
+    <ul class="error" id="error" name="error"></ul>
+    <div class="tabla">
+        <table class="tabla" id="tbProducto">
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Dni</th>
+                <th>Curso</th>
+            </thead>
+            <tbody></tbody>
+    </table>
+    </div>
+    <script src="js/cursos.js" type="text/javascript"></script>
+    <script src="js/bibliotecacurso.js" type="text/javascript"></script>
+</body>
+</html>
